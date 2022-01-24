@@ -12,6 +12,8 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+    'language' => 'en-US',
+    'name' => 'DhonTube',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
